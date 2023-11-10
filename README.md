@@ -104,10 +104,11 @@ In the backward pass,
 
 2. After that, create a list of attribute names in the dataset and use it in a call to the read_csv() function of the pandas library along with the name of the CSV file containing the dataset.
 
-3. Divide the dataset into two parts. While the first part contains the first four columns that we assign in the variable x. Likewise, the second part contains only the last column that is the class label. Further, assign it to the variable y.
+3. Divide the dataset into two parts. While the first part contains the first four columns that we assign in the variable x. Likewise, the second part contains only the last column that is the class label. 
+ Further, assign it to the variable y.
 
 4. Call the train_test_split() function that further divides the dataset into training data and testing data with a testing data size of 20%.
-Normalize our dataset. 
+ Normalize our dataset. 
 
 5.In order to do that we call the StandardScaler() function. Basically, the StandardScaler() function subtracts the mean from a feature and scales it to the unit variance.
 
